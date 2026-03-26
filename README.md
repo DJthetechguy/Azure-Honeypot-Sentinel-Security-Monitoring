@@ -7,7 +7,7 @@ Building and Visualizing a Cloud-Based Security Operations Center Using Azure Se
 ---
 
 ## Introduction
-This project simulates a real-world Security Operations Center (SOC) environment by deploying an intentionally vulnerable Windows 11 honeypot in Microsoft Azure. The virtual machine is exposed to the internet by allowing all inbound traffic and disabling the firewall, enabling it to attract and capture unauthorized access attempts such as brute-force logins. These failed authentication events (Event ID 4625) are collected and forwarded to a centralized Log Analytics Workspace, where they are monitored and analyzed using Azure Sentinel. To enhance visibility, logs are enriched with GeoIP data, allowing attacker IP addresses to be mapped to geographic locations. The results are visualized through a custom Sentinel workbook, providing an interactive view of global attack patterns. This project demonstrates hands-on experience with cloud security, SIEM configuration, log analysis using KQL, and threat visualization.
+This project simulates a real-world Security Operations Center (SOC) environment by deploying an intentionally vulnerable Windows 11 honeypot in Microsoft Azure. The virtual machine is exposed to the internet by allowing all inbound traffic and disabling the firewall, enabling it to attract and capture unauthorized access attempts such as brute-force logins. These failed authentication events are collected and forwarded to a centralized Log Analytics Workspace, where they are monitored and analyzed using Azure Sentinel. To enhance visibility, logs are enriched with GeoIP data, allowing attacker IP addresses to be mapped to geographic locations. The results are visualized through a custom Sentinel workbook, providing an interactive view of global attack patterns. This project demonstrates hands-on experience with cloud security, SIEM configuration, log analysis using KQL, and threat visualization.
 
 ---
 
@@ -67,6 +67,10 @@ Azure Environment Setup
 <img <img width="1920" height="971" alt="image" src="https://github.com/user-attachments/assets/13aad036-1680-4869-a2eb-93222c50e73b" />
 This screenshot confirms that the cloud environment has been successfully initialized in Microsoft Azure. It shows the active subscription, which is required to provision and manage resources such as virtual machines, networking, and monitoring services.
 
+
+<p>
+<img width="1916" height="964" alt="image" src="https://github.com/user-attachments/assets/0dacdd0d-702e-469d-b0e1-e90b249874a7" />
+This page displays the virtual machine overview and shows the honeypot fully deployed and running, with a public IP that exposes it to the internet. This deliberate exposure allows real-world attack traffic, such as automated scans and brute-force login attempts, to reach the VM. The Azure region indicates its datacenter location, which can affect the source of incoming attacks. 
 
 
 </p>
