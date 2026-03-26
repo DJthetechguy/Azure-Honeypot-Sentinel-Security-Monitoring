@@ -1,7 +1,7 @@
 # 🛡️ Azure-Honeypot-Sentinel-Security-Monitoring
 
 
-## Title
+## Description
 Building and Visualizing a Cloud-Based Security Operations Center Using Azure Sentinel and a Honeypot VM
 
 ---
