@@ -32,9 +32,17 @@ This project simulates a real-world Security Operations Center (SOC) environment
 - GeoIP Watchlist CSV – Log enrichment with geographic data
 - Sentinel Workbooks – Attack map visualization
 
-Short Steps Taken
+
+<h2>Operating Systems Used </h2>
+
+- Windows 11 (Windows Virtual Machine)
+- Windows (Host Machine)
+  
+
+<h2>Short Steps Taken </h2>
+
 - Azure Subscription Setup – Created a free or paid Azure subscription.
-- Honeypot VM Deployment – Deployed Windows 10 VM and configured credentials.
+- Honeypot VM Deployment – Deployed Windows 11 VM and configured credentials.
 - Network & Firewall Configuration – Allowed all inbound traffic and disabled Windows Firewall.
 - Failed Login Simulation – Attempted 3 failed logins with a test username (“employee”).
 - Event Logging – Captured failed login events (Event ID 4625) in Windows Event Viewer.
@@ -43,4 +51,5 @@ Short Steps Taken
 - KQL Queries – Queried failed login events and filtered relevant data.
 - GeoIP Enrichment – Imported GeoIP watchlist CSV and enriched logs with attacker location.
 - Attack Map Visualization – Created a custom Sentinel workbook to visualize attacks on a world map.
+
 
