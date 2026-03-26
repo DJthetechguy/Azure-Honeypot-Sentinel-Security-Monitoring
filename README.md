@@ -62,6 +62,7 @@ This project simulates a real-world Security Operations Center (SOC) environment
 
 <h2>Actions and Observations</h2>
 
+Azure Environment Setup
 <p>
 <img <img width="1920" height="971" alt="image" src="https://github.com/user-attachments/assets/13aad036-1680-4869-a2eb-93222c50e73b" />
 This screenshot confirms that the cloud environment has been successfully initialized in Microsoft Azure. It shows the active subscription, which is required to provision and manage resources such as virtual machines, networking, and monitoring services.
