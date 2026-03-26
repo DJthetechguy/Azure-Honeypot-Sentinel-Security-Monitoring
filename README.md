@@ -62,7 +62,7 @@ This project simulates a real-world Security Operations Center (SOC) environment
 
 <h2>Actions and Observations</h2>
 
-Azure Environment Setup
+🖥️ Azure Environment Setup
 <p>
 <img <img width="1920" height="971" alt="image" src="https://github.com/user-attachments/assets/13aad036-1680-4869-a2eb-93222c50e73b" />
 This screenshot confirms that the cloud environment has been successfully initialized in Microsoft Azure. It shows the active subscription, which is required to provision and manage resources such as virtual machines, networking, and monitoring services.
@@ -79,7 +79,7 @@ This page displays the virtual machine overview and shows the VM (honeypot) full
 </p>
 <br />
 
-Honeypot Configuration
+🌐 Honeypot Configuration
 <p>
 <img <img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/257b3803-65b6-4c63-8e66-05a84c18e81c" />
 This screenshot shows the completed NSG rule applied to the honeypot VM, allowing all inbound traffic from any source IP, on any port, using any protocol. By removing network-level restrictions, the VM is fully exposed to the internet, enabling automated scans and brute-force login attempts to generate real-world security logs for analysis.
