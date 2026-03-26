@@ -70,7 +70,7 @@ This screenshot confirms that the cloud environment has been successfully initia
 
 <p>
 <img width="1916" height="964" alt="image" src="https://github.com/user-attachments/assets/0dacdd0d-702e-469d-b0e1-e90b249874a7" />
-This page displays the virtual machine overview and shows the honeypot fully deployed and running, with a public IP that exposes it to the internet. This deliberate exposure allows real-world attack traffic, such as automated scans and brute-force login attempts, to reach the VM. The Azure region indicates its datacenter location, which can affect the source of incoming attacks. 
+This page displays the virtual machine overview and shows the VM (honeypot) fully deployed and running, with a public IP that exposes it to the internet. This deliberate exposure allows real-world attack traffic, such as automated scans and brute-force login attempts, to reach the VM. The Azure region indicates its datacenter location, which can affect the source of incoming attacks. 
 
 
 </p>
@@ -79,8 +79,11 @@ This page displays the virtual machine overview and shows the honeypot fully dep
 </p>
 <br />
 
+Honeypot Configuration
 <p>
-<img <img width="1912" height="1007" alt="image" src="https://github.com/user-attachments/assets/b75ba4cf-13ae-41f4-982b-17a349205e2b" />
+<img <img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/257b3803-65b6-4c63-8e66-05a84c18e81c" />
+This screenshot shows the completed NSG rule applied to the honeypot VM, allowing all inbound traffic from any source IP, on any port, using any protocol. By removing network-level restrictions, the VM is fully exposed to the internet, enabling automated scans and brute-force login attempts to generate real-world security logs for analysis.
+
 
 </p>
 <p>
