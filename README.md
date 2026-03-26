@@ -95,14 +95,15 @@ This screenshot shows the completed NSG rule applied to the honeypot VM, allowin
 <img <img width="1295" height="961" alt="image" src="https://github.com/user-attachments/assets/fe4ee9a8-e557-4512-aa25-28f3fb74c92f" />
 The Windows 10 VM is fully exposed as a honeypot. The NSG allows all inbound traffic and the Windows Firewall is disabled on all profiles, ensuring that all attack attempts reach the system. This setup creates a realistic attack surface for capturing and analyzing real-world malicious activity.
 
-</p>
-<p>
-
-</p>
-<br />
 
 <p>
-<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/d76a7f86-afcc-48b2-939f-fe1dbeb28ff6" />
+<p>
+🚫 Attack Simulation
+
+
+<p>
+<img <img width="1908" height="1023" alt="image" src="https://github.com/user-attachments/assets/1c0cdbc2-012b-469b-8a58-8f1ad7d6641b" />
+ The honeypot VM intentionally received failed login attempts to generate security logs. Event Viewer records these as Event ID 4625, capturing the attempted username, source IP, and timestamp. This simulates real-world attacks, providing data for analysis in the SIEM.
 
 </p>
 <p>
