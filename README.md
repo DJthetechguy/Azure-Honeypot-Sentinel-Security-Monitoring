@@ -79,7 +79,7 @@ This page displays the virtual machine overview and shows the VM (honeypot) full
 </p>
 <br />
 
-🌐 Honeypot Configuration
+🔐 Honeypot Configuration
 <p>
 <img <img width="1919" height="861" alt="image" src="https://github.com/user-attachments/assets/257b3803-65b6-4c63-8e66-05a84c18e81c" />
 This screenshot shows the completed NSG rule applied to the honeypot VM, allowing all inbound traffic from any source IP, on any port, using any protocol. By removing network-level restrictions, the VM is fully exposed to the internet, enabling automated scans and brute-force login attempts to generate real-world security logs for analysis.
@@ -92,7 +92,8 @@ This screenshot shows the completed NSG rule applied to the honeypot VM, allowin
 <br />
 
 <p>
-<img <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/fef7e38a-f7c0-4cea-9b71-146f306186dd" />
+<img <img width="1295" height="961" alt="image" src="https://github.com/user-attachments/assets/fe4ee9a8-e557-4512-aa25-28f3fb74c92f" />
+The Windows 10 VM is fully exposed as a honeypot. The NSG allows all inbound traffic and the Windows Firewall is disabled on all profiles, ensuring that all attack attempts reach the system. This setup creates a realistic attack surface for capturing and analyzing real-world malicious activity.
 
 </p>
 <p>
