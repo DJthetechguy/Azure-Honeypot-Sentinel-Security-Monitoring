@@ -53,3 +53,46 @@ This project simulates a real-world Security Operations Center (SOC) environment
 - Attack Map Visualization – Created a custom Sentinel workbook to visualize attacks on a world map.
 
 
+
+
+
+<h2>Actions and Observations</h2>
+
+<p>
+<img <img width="1917" height="971" alt="image" src="https://github.com/user-attachments/assets/19b1cf7a-45dc-412a-92fc-3db7f1e01bdb" />
+<img <img width="1918" height="973" alt="image" src="https://github.com/user-attachments/assets/62a88e88-8af1-430b-abf2-f8388cf85b47" />
+
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img <img width="1912" height="1007" alt="image" src="https://github.com/user-attachments/assets/b75ba4cf-13ae-41f4-982b-17a349205e2b" />
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/fef7e38a-f7c0-4cea-9b71-146f306186dd" />
+
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/d76a7f86-afcc-48b2-939f-fe1dbeb28ff6" />
+
+</p>
+<p>
+
+
+</p>
+<br />
