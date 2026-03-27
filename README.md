@@ -161,7 +161,8 @@ I imported a GeoIP dataset as a Sentinel watchlist to enrich log data with geogr
 
 
 <p>
-<img />
+<img <img width="1920" height="966" alt="image" src="https://github.com/user-attachments/assets/58efb376-cc38-44d0-b248-21ff44b0411a" />
+In this step, I enriched Windows Security Event logs with geographic data by integrating a GeoIP watchlist into a KQL query. The query filters failed login attempts (Event ID 4625) from a specific attacker IP and uses the ipv4_lookup function to match the IP address against known geographic ranges. This process appends location details such as city, country, latitude, and longitude to each log entry. I then used the project operator to format the output into a clean, analyst-friendly view. This enrichment transforms raw security logs into actionable intelligence, allowing identification of where attacks are originating from.
 
 </p>
 <p>
