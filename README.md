@@ -149,8 +149,8 @@ The Data Collection Rule (DCR) defines which security events are collected from 
 
 
 <p>
-<img <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/f7eacba9-3bc3-46e4-95f5-1bb4d464d199" />
-Using Kusto Query Language (KQL), I queried the SecurityEvent logs to filter for Event ID 4625, which corresponds to failed login attempts. The query returns detailed records of these unsuccessful authentications, including timestamps, usernames, and source IP addresses. KQL is a critical skill for security analysts working with SIEM tools. The results confirm that log ingestion and querying are functioning correctly.
+<img <img width="1920" height="970" alt="image" src="https://github.com/user-attachments/assets/721c4485-83b1-4230-a611-7118871d7409" />
+This screenshot shows a KQL query in Azure Log Analytics filtering SecurityEvent logs with EventID == 4625 to isolate failed login attempts. By narrowing the dataset to only unsuccessful authentications, the query highlights repeated failures from specific accounts and IP addresses helping identify potential brute-force or unauthorized access attempts. 
 </p>
 <p>
 
