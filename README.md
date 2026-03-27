@@ -111,3 +111,49 @@ The Windows 10 VM is fully exposed as a honeypot. The NSG allows all inbound tra
 
 </p>
 <br />
+
+
+
+<p>
+<img <img width="1920" height="966" alt="image" src="https://github.com/user-attachments/assets/ebc5c571-dd89-48d9-887a-a6a817ace4c3" />
+Microsoft Sentinel was deployed and connected to the Log Analytics Workspace. Sentinel is a cloud-native SIEM (Security Information and Event Management) solution used for threat detection and analysis. It allows correlation of logs, creation of alerts, and visualization of attack data. By integrating Sentinel, I transformed raw logs into actionable security insights. This step completes the core monitoring architecture.
+
+
+</p>
+<p>
+
+
+
+
+
+</p>
+<br />
+
+
+<p>
+<img  />
+ 
+
+</p>
+<p>
+
+
+
+
+
+
+</p>
+<br />
+
+
+
+<p>
+<img  />
+ 
+
+</p>
+<p>
+
+
+</p>
+<br />
