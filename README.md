@@ -149,7 +149,7 @@ The Data Collection Rule (DCR) defines which security events are collected from 
 
 
 <p>
-<img <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/cbbe4e2e-d75b-4ade-bd76-0ed682ae4b00" />
+<img <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/6eddf8b2-05d6-47a5-b2d6-c14a7e61e773" />
 I imported a GeoIP dataset as a Sentinel watchlist to enrich log data with geographic information. This dataset maps IP addresses to locations such as country and city. By joining this data with security logs, I can identify where attacks originate. Enrichment adds valuable context to raw log data. This is commonly used in real-world SOC environments for threat intelligence.
 </p>
 <p>
