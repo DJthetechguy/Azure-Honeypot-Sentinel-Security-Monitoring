@@ -23,7 +23,7 @@ This project simulates a real-world Security Operations Center (SOC) environment
 
 ## Tools & Technologies
 
-- Azure Virtual Machines – Windows 10 honeypot deployment
+- Azure Virtual Machines – Windows 11 honeypot deployment
 - Network Security Groups (NSG) – Inbound traffic management
 - Windows Event Viewer – Failed login event logging
 - Azure Log Analytics Workspace – Centralized log repository
