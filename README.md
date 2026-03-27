@@ -149,8 +149,33 @@ The Data Collection Rule (DCR) defines which security events are collected from 
 
 
 <p>
-<img <img width="1920" height="970" alt="image" src="https://github.com/user-attachments/assets/721c4485-83b1-4230-a611-7118871d7409" />
-This screenshot shows a KQL query in Azure Log Analytics filtering SecurityEvent logs with EventID == 4625 to isolate failed login attempts. By narrowing the dataset to only unsuccessful authentications, the query highlights repeated failures from specific accounts and IP addresses helping identify potential brute-force or unauthorized access attempts. 
+<img <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/cbbe4e2e-d75b-4ade-bd76-0ed682ae4b00" />
+I imported a GeoIP dataset as a Sentinel watchlist to enrich log data with geographic information. This dataset maps IP addresses to locations such as country and city. By joining this data with security logs, I can identify where attacks originate. Enrichment adds valuable context to raw log data. This is commonly used in real-world SOC environments for threat intelligence.
+</p>
+<p>
+
+
+</p>
+<br />
+
+
+
+<p>
+<img />
+
+</p>
+<p>
+
+
+</p>
+<br />
+
+
+
+
+<p>
+<img />
+
 </p>
 <p>
 
