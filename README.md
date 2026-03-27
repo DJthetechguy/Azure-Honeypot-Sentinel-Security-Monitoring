@@ -149,9 +149,8 @@ The Data Collection Rule (DCR) defines which security events are collected from 
 
 
 <p>
-<img  />
- 
-
+<img <img width="1920" height="968" alt="image" src="https://github.com/user-attachments/assets/f7eacba9-3bc3-46e4-95f5-1bb4d464d199" />
+Using Kusto Query Language (KQL), I queried the SecurityEvent logs to filter for Event ID 4625, which corresponds to failed login attempts. The query returns detailed records of these unsuccessful authentications, including timestamps, usernames, and source IP addresses. KQL is a critical skill for security analysts working with SIEM tools. The results confirm that log ingestion and querying are functioning correctly.
 </p>
 <p>
 
