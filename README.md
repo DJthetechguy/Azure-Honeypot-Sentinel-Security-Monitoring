@@ -93,7 +93,7 @@ This screenshot shows the completed NSG rule applied to the honeypot VM, allowin
 
 <p>
 <img <img width="1295" height="961" alt="image" src="https://github.com/user-attachments/assets/fe4ee9a8-e557-4512-aa25-28f3fb74c92f" />
-The Windows 10 VM is fully exposed as a honeypot. The NSG allows all inbound traffic and the Windows Firewall is disabled on all profiles, ensuring that all attack attempts reach the system. This setup creates a realistic attack surface for capturing and analyzing real-world malicious activity.
+The Windows 11 VM is fully exposed as a honeypot. The NSG allows all inbound traffic and the Windows Firewall is disabled on all profiles, ensuring that all attack attempts reach the system. This setup creates a realistic attack surface for capturing and analyzing real-world malicious activity.
 
 
 <p>
