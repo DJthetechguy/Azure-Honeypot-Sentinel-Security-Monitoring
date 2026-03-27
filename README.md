@@ -175,7 +175,8 @@ In this step, I enriched Windows Security Event logs with geographic data by int
 
 
 <p>
-<img />
+<img <img width="1920" height="966" alt="image" src="https://github.com/user-attachments/assets/6f9036cf-75ca-40a1-9ed2-d304732ca771" />
+In the final step, I created a Sentinel workbook to visualize attack data on a global map. This map displays the geographic origin of failed login attempts in real time. It provides an intuitive way to understand attack distribution and scale. Visualization is an important part of communicating security findings. This completes the honeypot project by turning logs into a clear, visual story.
 
 </p>
 <p>
