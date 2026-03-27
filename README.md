@@ -131,7 +131,8 @@ Microsoft Sentinel was deployed and connected to the Log Analytics Workspace. Se
 
 
 <p>
-<img  />
+<img <img width="1920" height="972" alt="image" src="https://github.com/user-attachments/assets/8543bad4-b6fa-4d14-b0e4-f125b7712a88" />
+The Data Collection Rule (DCR) defines which security events are collected from the virtual machine and forwarded to Microsoft Sentinel via the Azure Monitor Agent. This screenshot shows the DCR configuration with the associated VM and enabled data streams for Windows Security Events. It confirms the data ingestion setup is correctly linked to the VM, enabling centralized security monitoring and analysis.
  
 
 </p>
